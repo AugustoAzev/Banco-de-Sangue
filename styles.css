@@ -41,3 +41,52 @@ button {
 button:hover {
     background: #0056b3;
 }
+
+/*Telas com a opção voltar*/
+
+#seta-voltar{
+    display: flex;
+}
+
+#seta-voltar button{
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.500);
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#seta-voltar button img{
+    max-width: 50px;
+}
+/*Fim*/
+
+/*Menu principal*/
+
+#menu{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+#menu div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu h2{
+    color: white;
+    padding: 10px;
+}
+
+#menu button{
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.500);
+    border-radius: 20px;
+}
+#menu img{
+    max-width: 100px;
+}
