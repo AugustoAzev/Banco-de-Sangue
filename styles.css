@@ -1,6 +1,5 @@
 h1 {
     color: #f0f0f0;
-    
 }
 .container {
     display: flex;
@@ -91,23 +90,64 @@ button:hover {
     max-width: 100px;
 }
 
-/*add funcionario*/
-h2{
-    color: #f0f0f0;
-    display: center;
+/*add funcionario e doador*/
+
+.container-add-fun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+
 #funcionario-form{
-background: #f0f0f0;
-display: grid;
-justify-content: center;
-align-items: center;
-padding: 20px;
+padding: 40px;
 border-radius: 20px;
-height: 10%vh;
-width: 50%;
+width: 90%;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.input-field {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/*pesquisar funcionario*/
+
+.pesquisa-fun {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#search-input {
+    margin: 20px;
+    padding: 6px;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 5px 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.results {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#search-results {
+    list-style: none;
+    padding: 0;
+}
+
+#search-results li {
+    margin: 5px 0;
+}
 
 
 

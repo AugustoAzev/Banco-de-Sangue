@@ -23,9 +23,20 @@
 <body>
     <div id="seta-voltar">
         <button> <img src="Imagens/left-arrow.svg" alt="left-arrow"></button>
-
     </div>
 
-    
+    <div class="pesquisa-fun">
+        <h2>Pesquisa de Funcionário</h2>
+        <input type="text" id="search-input" placeholder="Pesquisar por nome">
+        <button onclick="searchEmployee()">Pesquisar</button>
+    </div>
+
+    <div class="results">
+        <h3>Resultados da Pesquisa:</h3>
+        <ul id="search-results">
+            <!-- Os resultados da pesquisa serão exibidos aqui -->
+        </ul>
+    </div>
+
 </body>
 </html>
